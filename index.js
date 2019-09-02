@@ -56,7 +56,7 @@ app.use((req, res, next) => {
     if (res.locals.userRol !== 'admin') {
         return res.status(403).json({error: 'Forbiden!'});
     }
-    next(err);
+    next();
 });
 
 
