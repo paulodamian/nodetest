@@ -23,6 +23,8 @@ router.get("/policiesbyusername/:userName", async (req, res, next) => {
 
 router.get("/userbypolicy/:policyNumber", async (req, res, next) => {
     try {
+        /* This should be resolved in one query from the DB
+        but it is resolved this way for compatibility with the solution that only use the jsons provided */
         let policy = await data.getPolicy(req.params.policyNumber);
         let user = await data.getUserByProperty('id', policy.clientId);
         res.status(200).send(user);
