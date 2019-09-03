@@ -1,6 +1,7 @@
 const express = require("express");
 
-let data = require("./data/jsonData");
+//let data = require("./data/jsonData");
+let data = require("./data/dbData");
 
 const app = express();
 const port = "8000";
