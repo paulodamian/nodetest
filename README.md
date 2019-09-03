@@ -1,6 +1,6 @@
 # nodetest
 
-## How to run the proyect
+## How to run the project
 
 Just clone the repository install its dependencies and run the startup script.
 
