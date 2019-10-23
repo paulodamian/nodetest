@@ -1,5 +1,7 @@
 # nodetest
 
+Challenge tasks: https://github.com/paulodamian/nodetest/blob/master/backend_tes%20NODE.pdf
+
 ## How to run the project
 
 Just clone the repository install its dependencies and run the startup script.
